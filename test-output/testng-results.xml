@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-21T05:05:00 IST" name="Default suite" finished-at="2021-07-21T05:06:16 IST" duration-ms="76184">
+    <groups>
+    </groups>
+    <test started-at="2021-07-21T05:05:00 IST" name="Default test" finished-at="2021-07-21T05:06:16 IST" duration-ms="76184">
+      <class name="com.testcases.SampleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.SampleTest@1eb5174b]" started-at="2021-07-21T05:05:00 IST" name="setUp" finished-at="2021-07-21T05:05:12 IST" duration-ms="12206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPaymentScreen(java.lang.String)[pri:1, instance:com.testcases.SampleTest@1eb5174b]" started-at="2021-07-21T05:05:12 IST" name="verifyPaymentScreen" data-provider="test-data" finished-at="2021-07-21T05:05:32 IST" duration-ms="20127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://sanbox.undostres.com.mx/payment.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentScreen -->
+        <test-method signature="verifySuccessMessage(java.lang.String)[pri:2, instance:com.testcases.SampleTest@1eb5174b]" started-at="2021-07-21T05:05:32 IST" name="verifySuccessMessage" data-provider="test-data" finished-at="2021-07-21T05:06:16 IST" duration-ms="43748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[¡Recarga Exitosa!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessMessage -->
+        <test-method signature="verifyRechargeSuccess(java.lang.String)[pri:3, instance:com.testcases.SampleTest@1eb5174b]" started-at="2021-07-21T05:06:16 IST" name="verifyRechargeSuccess" data-provider="test-data" finished-at="2021-07-21T05:06:16 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://sanbox.undostres.com.mx/confirmation/success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRechargeSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.SampleTest@1eb5174b]" started-at="2021-07-21T05:06:16 IST" name="tearDown" finished-at="2021-07-21T05:06:17 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.SampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
